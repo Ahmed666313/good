@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Outfit&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+/* ### Neutral  */
+
+ --main-BG: hsl(217, 54%, 11%);
+--card-BG: hsl(216, 50%, 16%);
+--line: hsl(215, 32%, 27%);
+ --White: hsl(0, 0%, 100%);
+}
+body {
+    font-family: "outfit", sans-serif;
+    font-size: 18px;
+    background-color: var(--main-BG);
+    color: var(--White);
+    padding: 1.25rem;
+}
+.container{
+    padding: 0.1rem;
+    border-radius: 00.1rem;
+    background-color: var(--card-BG);
+}
+@media(min-width: 500px){
+    .container{
+        width: 450px;
+        margin-left: 37%;
+    }
+}
+img {
+    width: 400px;
+}
+/* .container .text {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color:var(--Cyan);
+    top: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0;
+}
+.container .text:hover{
+    opacity: 1;
+    cursor: pointer;
+} */
+.container h1 {
+    margin: 1rem 0.5rem 0.5rem 0;
+    color: var(--White);
+    transition: 0.3s;
+}
+.container h1:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+}
+ p {
+    color: var(--line);
+}
+.test {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: 2px solid var(--line) ;
+    padding: 1rem 0;
+
+    
+}
+.test .one, .tow
+ {
+    display: flex;
+
+    
+}
+p {
+    margin-left: 7px;
+}
+.five {
+    color: var(--Cyan);
+    margin-left: 7px;
+}
+.image {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+   margin-top: 30px;
+     
+}
+.image img {
+    width: 80px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+.image p {
+    margin-right: 150px;
+}
+.image p span {
+color: var(--White);
+margin-left: 5px;
+}
+p {
+    font-weight: 300;
+}
+.container {
+    padding: 1.25rem;
+    background-color: var(--card-BG);
+    border-radius: 0.7rem;
+}
+.attribution {      text-align: center;
+    text-align: center;
+    margin-left: 8%;
+    margin-top: -22px;
+    font-size: 12px;
+
+    
+     }
+    .attribution a {    
+      color:hsl(215, 51%, 70%) ;
+      text-decoration: none;
+    }
+ 
